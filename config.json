@@ -1,0 +1,64 @@
+{
+    "access-log-file": null,
+    "access-password": null,
+    "algo-ext": true,
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 1111,
+            "tls": false
+        },
+        {
+            "host": "::",
+            "port": 3333,
+            "tls": false
+        }
+    ],
+    "colors": true,
+    "title": true,
+    "custom-diff": 0,
+    "custom-diff-stats": false,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "hk-zephyr.miningocean.org:5332",
+            "user": "ZEPHYR2jrsLJL7o2X1EoQE12e7YJJ5UszAn83djLLNpJWdFXQGFYEJkiG2HDcnctb4ZbH4ceSmHN6Qc71gjv794hGnQ6rQ1GEEB5F",
+            "pass": "TRUONG",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": "!msr",
+            "algo": "rx"
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "tls": {
+        "enabled": true,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "syslog": false,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}
